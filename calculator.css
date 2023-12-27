@@ -1,0 +1,59 @@
+h1{
+    color:rgb(9, 44, 110);
+    font-size:3rem;
+    font-weight: 900;
+text-align: center;
+text-shadow: 5px 5px  white;
+}
+.maincontainer{
+    width:100vw;
+    height:100vh;
+    background-color: lightskyblue;
+    display:flex;
+    flex-direction: column;
+    gap:70px;
+    position:relative;
+}
+.container3{
+    align-content: end;
+   position: absolute;
+   top:600px;
+   left:200px;
+   background-color: red;
+border: solid black 2px;
+    padding: 10px;
+ left:600px;
+ box-shadow: 10px 10px 3px  yellow;
+}
+.container1{
+margin-left:20px;
+margin-right: 20px;
+
+}
+.container2 {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color:cornflowerblue;
+    border:solid black 2px;
+    padding:10px;
+}
+
+.but{
+display:flex;
+justify-content: space-around;
+}
+.in{
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: chocolate;
+        border:solid black 2px;
+        padding-bottom:20px;
+}
+button{
+    color:red;
+    background-color: gold;
+
+}
+
